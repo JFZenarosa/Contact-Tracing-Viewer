@@ -29,21 +29,22 @@ namespace Contact_Tracing_Form_Viewer
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.DisplayBox = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // DisplayBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(776, 539);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.DisplayBox.Location = new System.Drawing.Point(125, 12);
+            this.DisplayBox.Name = "DisplayBox";
+            this.DisplayBox.Size = new System.Drawing.Size(512, 370);
+            this.DisplayBox.TabIndex = 0;
+            this.DisplayBox.Text = "";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(681, 557);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 34);
             this.button1.TabIndex = 1;
@@ -51,13 +52,24 @@ namespace Contact_Tracing_Form_Viewer
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(12, 52);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(107, 34);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Clear";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 603);
+            this.ClientSize = new System.Drawing.Size(647, 394);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.DisplayBox);
             this.Name = "Form1";
             this.Text = "Contact Tracing Form Viewer";
             this.ResumeLayout(false);
@@ -66,8 +78,9 @@ namespace Contact_Tracing_Form_Viewer
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox DisplayBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Contact_Tracing_Form_Viewer
 {
@@ -19,13 +20,20 @@ namespace Contact_Tracing_Form_Viewer
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Stream writer;
             OpenFileDialog ofd = new OpenFileDialog();
 
             ofd.InitialDirectory = "C:\\Example";            
 
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                
+                if((writer = ofd.OpenFile()) !=null) 
+                {
+                    string contactForm = ofd.FileName;
+                    string filetext = File.ReadAllText(contactForm);
+
+                    DisplayBox.Text = filetext;
+                }
 
             }
             else if (ofd.ShowDialog() == DialogResult.Cancel)
@@ -33,6 +41,11 @@ namespace Contact_Tracing_Form_Viewer
                 MessageBox.Show("Cancelled");
             }
             else { }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
