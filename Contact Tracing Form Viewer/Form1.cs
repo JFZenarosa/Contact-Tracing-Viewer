@@ -45,7 +45,7 @@ namespace Contact_Tracing_Form_Viewer
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            DisplayBox.Clear();
         }
     }
 }

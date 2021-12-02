@@ -32,11 +32,12 @@ namespace Contact_Tracing_Form_Viewer
             this.DisplayBox = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // DisplayBox
             // 
-            this.DisplayBox.Location = new System.Drawing.Point(125, 12);
+            this.DisplayBox.Location = new System.Drawing.Point(125, 83);
             this.DisplayBox.Name = "DisplayBox";
             this.DisplayBox.Size = new System.Drawing.Size(512, 370);
             this.DisplayBox.TabIndex = 0;
@@ -44,7 +45,7 @@ namespace Contact_Tracing_Form_Viewer
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(12, 83);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 34);
             this.button1.TabIndex = 1;
@@ -54,7 +55,7 @@ namespace Contact_Tracing_Form_Viewer
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 52);
+            this.button2.Location = new System.Drawing.Point(12, 123);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 34);
             this.button2.TabIndex = 2;
@@ -62,17 +63,30 @@ namespace Contact_Tracing_Form_Viewer
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label2.Location = new System.Drawing.Point(6, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(636, 33);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Mercury Drugs Contact Tracing Form Viewer";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 394);
+            this.ClientSize = new System.Drawing.Size(647, 465);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.DisplayBox);
             this.Name = "Form1";
             this.Text = "Contact Tracing Form Viewer";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -81,6 +95,7 @@ namespace Contact_Tracing_Form_Viewer
         private System.Windows.Forms.RichTextBox DisplayBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label2;
     }
 }
 
