@@ -1,0 +1,10 @@
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\bin\Debug\Contact Tracing Form Viewer.exe.config
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\bin\Debug\Contact Tracing Form Viewer.exe
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\bin\Debug\Contact Tracing Form Viewer.pdb
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\obj\Debug\Contact Tracing Form Viewer.csproj.AssemblyReference.cache
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\obj\Debug\Contact_Tracing_Form_Viewer.Form1.resources
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\obj\Debug\Contact_Tracing_Form_Viewer.Properties.Resources.resources
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\obj\Debug\Contact Tracing Form Viewer.csproj.GenerateResource.cache
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\obj\Debug\Contact Tracing Form Viewer.csproj.CoreCompileInputs.cache
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\obj\Debug\Contact Tracing Form Viewer.exe
+X:\School\Visual Studio\Repository\Contact Tracing Form Viewer\Contact Tracing Form Viewer\obj\Debug\Contact Tracing Form Viewer.pdb
